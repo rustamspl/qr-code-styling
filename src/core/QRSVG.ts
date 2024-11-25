@@ -198,7 +198,7 @@ export default class QRSVG {
     const yBeginning = this._roundSize((options.height - count * dotSize) / 2);
     const dot = new QRDot({
       svg: this._element,
-      type: options.dotsOptions.type,
+      type: "square",//options.dotsOptions.type,
       window: this._window
     });
 
@@ -363,7 +363,7 @@ export default class QRSVG {
       } else {
         const dot = new QRDot({
           svg: this._element,
-          type: options.dotsOptions.type,
+          type:  options.dotsOptions.type,
           window: this._window
         });
 

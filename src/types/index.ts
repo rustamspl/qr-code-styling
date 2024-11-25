@@ -1,5 +1,5 @@
 import { DOMWindow, JSDOM } from "jsdom";
-import nodeCanvas  from "canvas";
+// import nodeCanvas  from "canvas";
 
 export interface UnknownObject {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -116,7 +116,7 @@ export type Options = {
   margin?: number;
   data?: string;
   image?: string;
-  nodeCanvas?: typeof nodeCanvas;
+  nodeCanvas?: any;
   jsdom?: typeof JSDOM;
   qrOptions?: {
     typeNumber?: TypeNumber;

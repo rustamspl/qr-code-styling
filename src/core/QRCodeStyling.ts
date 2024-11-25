@@ -7,7 +7,7 @@ import drawTypes from "../constants/drawTypes";
 import defaultOptions, { RequiredOptions } from "./QROptions";
 import sanitizeOptions from "../tools/sanitizeOptions";
 import { FileExtension, QRCode, Options, DownloadOptions, ExtensionFunction, Window } from "../types";
-import qrcode from "qrcode-generator";
+import qrcode from "../qr/qrcode";
 import getMimeType from "../tools/getMimeType";
 import { Canvas as NodeCanvas, Image } from "canvas";
 

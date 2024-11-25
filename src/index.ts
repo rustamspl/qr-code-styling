@@ -22,7 +22,6 @@ export {
   qrTypes,
   drawTypes,
   shapeTypes,
-  gradientTypes
+  gradientTypes,
+  QRCodeStyling
 };
-
-export default QRCodeStyling;
